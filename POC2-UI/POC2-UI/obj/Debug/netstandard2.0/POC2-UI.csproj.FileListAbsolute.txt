@@ -1,0 +1,16 @@
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\bin\Debug\netstandard2.0\POC2-UI.deps.json
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\bin\Debug\netstandard2.0\POC2-UI.dll
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\bin\Debug\netstandard2.0\POC2-UI.pdb
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\POC2-UI.csprojAssemblyReference.cache
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\POC2-UI.csproj.CoreCompileInputs.cache
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\POC2-UI.AssemblyInfoInputs.cache
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\POC2-UI.AssemblyInfo.cs
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\POC2-UI.dll
+C:\Users\nnallu\source\repos\POC2-UI\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\POC2-UI.pdb
