@@ -1,21 +1,36 @@
-﻿using System;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 using POC2_UI.Views;
-using Xamarin.Forms.Xaml;
+using POC2_UI.Repository;
+using POC2_UI.Helpers;
 
-[assembly: XamlCompilation (XamlCompilationOptions.Compile)]
 namespace POC2_UI
 {
-	public partial class App : Application
+    public partial class App : Application
 	{
-		
-		public App ()
+
+        static UserRepository userDB;
+
+        public App ()
 		{
 			InitializeComponent();
 
 
 			MainPage = new MainPage();
 		}
+
+        public static UserRepository UserDb
+        {
+            get
+            {
+                if(userDB == null)
+                {
+                    userDB = new UserRepository(DependencyService.Get<IFileHelper>().GetLocalFilePath("userdb.db3"));
+
+                }
+
+                return userDB;
+            }
+        }
 
 		protected override void OnStart ()
 		{

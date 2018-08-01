@@ -109,6 +109,15 @@ class MonoPackageManager_Resources {
 		"POC2-UI.Android.dll",
 		"FormsViewGroup.dll",
 		"POC2_UI.dll",
+		"SQLite-net.dll",
+		"SQLitePCLRaw.batteries_green.dll",
+		"SQLitePCLRaw.batteries_v2.dll",
+		"SQLitePCLRaw.core.dll",
+		"SQLitePCLRaw.lib.e_sqlite3.dll",
+		"SQLitePCLRaw.provider.e_sqlite3.dll",
+		"Xamarin.Android.Arch.Core.Common.dll",
+		"Xamarin.Android.Arch.Lifecycle.Common.dll",
+		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.Compat.dll",
@@ -132,5 +141,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_25";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_27";
 }
