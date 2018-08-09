@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
 using POC2_UI.Models;
 using POC2_UI.Services;
 using Xamarin.Forms;
@@ -16,6 +17,7 @@ namespace POC2_UI.ViewModels
             Users = new ObservableCollection<User>();
             _userService = new UserService();
             ExecuteLoadUserCommand();
+            GetUserWebApiCall();
 
             MessagingCenter.Subscribe<UserDetailViewModel, User>(this, "UserAdded", async (obj, item) =>
             {
@@ -23,6 +25,14 @@ namespace POC2_UI.ViewModels
                 await _userService.SaveUser(_user);
                 ExecuteLoadUserCommand();
             });
+        }
+
+        private void GetUserWebApiCall()
+        {
+            var service = new UserWebApiService();
+            var user = service.GetUserAsync(Guid.Parse("E4C6D172-3D14-4539-9FEE-306B081DC3DB")).GetAwaiter().GetResult();
+
+
         }
 
         private async void ExecuteLoadUserCommand()

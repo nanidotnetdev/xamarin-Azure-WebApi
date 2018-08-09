@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.4.118": {
         "type": "package",
         "dependencies": {
@@ -177,6 +186,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
           "Xamarin.Forms": "3.1.0.637273",
           "sqlite-net-pcl": "1.4.118"
         },
@@ -189,6 +199,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.4.118": {
         "type": "package",
         "dependencies": {
@@ -364,6 +383,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
           "Xamarin.Forms": "3.1.0.637273",
           "sqlite-net-pcl": "1.4.118"
         },
@@ -376,6 +396,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.4.118": {
         "type": "package",
         "dependencies": {
@@ -551,6 +580,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
           "Xamarin.Forms": "3.1.0.637273",
           "sqlite-net-pcl": "1.4.118"
         },
@@ -563,6 +593,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.4.118": {
         "type": "package",
         "dependencies": {
@@ -738,6 +777,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
           "Xamarin.Forms": "3.1.0.637273",
           "sqlite-net-pcl": "1.4.118"
         },
@@ -751,6 +791,34 @@
     }
   },
   "libraries": {
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
     "sqlite-net-pcl/1.4.118": {
       "sha512": "66wl2z26PpA/m+hY2UJudsHF3GpbbC8Scx9WvXC0MomQxrbclkb2jiavYsXH3AEXHsTAjKIWavmwKoRIPWsdAg==",
       "type": "package",
@@ -1003,6 +1071,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "Newtonsoft.Json >= 11.0.2",
       "POC2_UI >= 1.0.0",
       "Xamarin.Forms >= 3.1.0.637273",
       "sqlite-net-pcl >= 1.4.118"
@@ -1014,11 +1083,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nallu\\Documents\\GitHub\\Xamarin-POC\\POC2-UI\\POC2-UI.iOS\\POC2_UI.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\nallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI.iOS\\POC2_UI.iOS.csproj",
       "projectName": "POC2_UI.iOS",
-      "projectPath": "C:\\Users\\nallu\\Documents\\GitHub\\Xamarin-POC\\POC2-UI\\POC2-UI.iOS\\POC2_UI.iOS.csproj",
+      "projectPath": "C:\\Users\\nallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI.iOS\\POC2_UI.iOS.csproj",
       "packagesPath": "C:\\Users\\nallu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nallu\\Documents\\GitHub\\Xamarin-POC\\POC2-UI\\POC2-UI.iOS\\obj\\",
+      "outputPath": "C:\\Users\\nallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1035,8 +1104,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\nallu\\Documents\\GitHub\\Xamarin-POC\\POC2-UI\\POC2-UI\\POC2_UI.csproj": {
-              "projectPath": "C:\\Users\\nallu\\Documents\\GitHub\\Xamarin-POC\\POC2-UI\\POC2-UI\\POC2_UI.csproj"
+            "C:\\Users\\nallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI\\POC2_UI.csproj": {
+              "projectPath": "C:\\Users\\nallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI\\POC2_UI.csproj"
             }
           }
         }
@@ -1045,6 +1114,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[11.0.2, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.1.0.637273, )"
