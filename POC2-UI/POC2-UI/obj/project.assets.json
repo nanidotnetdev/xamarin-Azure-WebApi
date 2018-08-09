@@ -11,7 +11,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "NETStandard.Library/2.0.3": {
+      "NETStandard.Library/2.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -108,13 +108,14 @@
         "runtime.json"
       ]
     },
-    "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+    "NETStandard.Library/2.0.1": {
+      "sha512": "oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
       "type": "package",
-      "path": "netstandard.library/2.0.3",
+      "path": "netstandard.library/2.0.1",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -231,7 +232,7 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.3.nupkg.sha512",
+        "netstandard.library.2.0.1.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     },
@@ -500,30 +501,30 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3",
+      "NETStandard.Library >= 2.0.1",
       "Newtonsoft.Json >= 11.0.2",
       "Xamarin.Forms >= 3.1.0.637273",
       "sqlite-net-pcl >= 1.4.118"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nallu\\.nuget\\packages\\": {},
+    "C:\\Users\\nnallu\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI\\POC2_UI.csproj",
+      "projectUniqueName": "C:\\Users\\nnallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI\\POC2_UI.csproj",
       "projectName": "POC2_UI",
-      "projectPath": "C:\\Users\\nallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI\\POC2_UI.csproj",
-      "packagesPath": "C:\\Users\\nallu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI\\obj\\",
+      "projectPath": "C:\\Users\\nnallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI\\POC2_UI.csproj",
+      "packagesPath": "C:\\Users\\nnallu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nnallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\nallu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nnallu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -550,7 +551,7 @@
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.3, )",
+            "version": "[2.0.1, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {

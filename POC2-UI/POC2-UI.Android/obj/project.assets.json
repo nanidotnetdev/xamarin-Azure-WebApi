@@ -981,20 +981,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nallu\\.nuget\\packages\\": {}
+    "C:\\Users\\nnallu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI.Android\\POC2_UI.Android.csproj",
+      "projectUniqueName": "C:\\Users\\nnallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI.Android\\POC2_UI.Android.csproj",
       "projectName": "POC2_UI.Android",
-      "projectPath": "C:\\Users\\nallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI.Android\\POC2_UI.Android.csproj",
-      "packagesPath": "C:\\Users\\nallu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI.Android\\obj\\",
+      "projectPath": "C:\\Users\\nnallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI.Android\\POC2_UI.Android.csproj",
+      "packagesPath": "C:\\Users\\nnallu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nnallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\nallu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nnallu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1007,8 +1007,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\nallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI\\POC2_UI.csproj": {
-              "projectPath": "C:\\Users\\nallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI\\POC2_UI.csproj"
+            "C:\\Users\\nnallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI\\POC2_UI.csproj": {
+              "projectPath": "C:\\Users\\nnallu\\Documents\\GitHub\\xamarin-Azure-WebApi\\POC2-UI\\POC2-UI\\POC2_UI.csproj"
             }
           }
         }
