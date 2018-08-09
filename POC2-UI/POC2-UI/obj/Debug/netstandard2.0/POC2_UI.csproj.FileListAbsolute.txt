@@ -52,5 +52,6 @@ C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI\obj\Debug\n
 C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\POC2_UI.csproj.CoreCompileInputs.cache
 C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\POC2_UI.AssemblyInfoInputs.cache
 C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\POC2_UI.AssemblyInfo.cs
+C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\POC2_UI.dll
 C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI\obj\Debug\netstandard2.0\POC2_UI.pdb

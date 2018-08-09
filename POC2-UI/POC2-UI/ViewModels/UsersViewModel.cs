@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.Threading.Tasks;
 using POC2_UI.Models;
 using POC2_UI.Services;
 using Xamarin.Forms;
@@ -27,10 +28,16 @@ namespace POC2_UI.ViewModels
             });
         }
 
-        private void GetUserWebApiCall()
+        private Task GetUserWebApiCall()
         {
             var service = new UserWebApiService();
-            var user = service.GetUserAsync(Guid.Parse("E4C6D172-3D14-4539-9FEE-306B081DC3DB")).GetAwaiter().GetResult();
+            var user = service.GetUserAsync(Guid.Parse("E4C6D172-3D14-4539-9FEE-306B081DC3DB"));
+
+            var rr = user.GetAwaiter().GetResult();
+
+            var test = "";
+
+            return user;
 
 
         }

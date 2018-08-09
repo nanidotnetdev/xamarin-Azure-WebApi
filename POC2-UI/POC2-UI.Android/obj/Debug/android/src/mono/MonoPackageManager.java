@@ -108,6 +108,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "POC2-UI.Android.dll" comes first in this list. */
 		"POC2-UI.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"POC2_UI.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_green.dll",

@@ -23,7 +23,7 @@ namespace POC2_UI.Services
                     {
                         cancellationSource.CancelAfter(TimeSpan.FromSeconds(ServiceConstants.Defaults.ServiceTimeoutInSecs));
 
-                        response = await client.SendAsync(request, cancellationSource.Token);
+                        response = await client.SendAsync(request, cancellationSource.Token).ConfigureAwait(false);
                     }
 
                     var jsonString = await response.Content.ReadAsStringAsync();

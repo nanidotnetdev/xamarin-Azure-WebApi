@@ -9,7 +9,7 @@
 
         public sealed class Urls
         {
-            public const string GetUserEntity = "https://enterprizepoc.azure-api.net/api/logapi/GetLogEntity/{0}";
+            public const string GetUserEntity = "https://enterprizepoc.azure-api.net/api/UserApi/GetUserEntity?id={0}";
             public const string GetAllUsers = "";
         }
 
