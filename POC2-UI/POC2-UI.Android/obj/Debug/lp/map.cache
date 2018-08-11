@@ -1,4 +1,5 @@
 FormsViewGroup
+Newtonsoft.Json
 POC2_UI
 SQLite-net
 SQLitePCLRaw.batteries_green
@@ -31,5 +32,5 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+System.ComponentModel.Annotations
 System.Reflection.Extensions
-Newtonsoft.Json

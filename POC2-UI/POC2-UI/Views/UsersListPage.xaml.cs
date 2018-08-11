@@ -13,7 +13,7 @@ namespace POC2_UI.Views
 
 		public UsersListPage ()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 
 		    BindingContext = viewModel = new UsersViewModel();
 		}

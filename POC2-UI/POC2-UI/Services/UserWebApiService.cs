@@ -1,9 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Net;
-using System.Text;
-
-namespace POC2_UI.Services
+﻿namespace POC2_UI.Services
 {
     using System;
     using System.Net.Http;
@@ -11,10 +6,13 @@ namespace POC2_UI.Services
     using System.Threading.Tasks;
     using Newtonsoft.Json;
     using POC2_UI.Models;
+    using System.Collections.Generic;
+    using System.Net;
+    using System.Text;
 
     public class UserWebApiService
     {
-        public async Task<User> GetUserAsync(Guid userId)
+        public async Task<UserWebApiEntity> GetUserAsync(Guid userId)
         {
             using (var client = new HttpClient())
             {
@@ -35,7 +33,7 @@ namespace POC2_UI.Services
 
                     var jsonString = await response.Content.ReadAsStringAsync();
 
-                    return JsonConvert.DeserializeObject<User>(jsonString);
+                    return JsonConvert.DeserializeObject<UserWebApiEntity>(jsonString);
                 }
             }
         }
@@ -44,7 +42,7 @@ namespace POC2_UI.Services
         /// Get all Users.
         /// </summary>
         /// <returns></returns>
-        public async Task<ICollection<User>> GetAllUsers()
+        public async Task<ICollection<UserWebApiEntity>> GetAllUsers()
         {
             using (var client = new HttpClient())
             {
@@ -64,7 +62,7 @@ namespace POC2_UI.Services
 
                     var json = await response.Content.ReadAsStringAsync();
 
-                    return JsonConvert.DeserializeObject<ICollection<User>>(json);
+                    return JsonConvert.DeserializeObject<ICollection<UserWebApiEntity>>(json);
                 }
             }
         }
@@ -74,7 +72,7 @@ namespace POC2_UI.Services
         /// </summary>
         /// <param name="user"></param>
         /// <returns></returns>
-        public async Task<User> SaveUser(User user)
+        public async Task<UserWebApiEntity> SaveUser(UserWebApiEntity user)
         {
             using (var client = new HttpClient())
             {
@@ -100,7 +98,7 @@ namespace POC2_UI.Services
 
                     var jsonString = await response.Content.ReadAsStringAsync();
 
-                    return JsonConvert.DeserializeObject<User>(jsonString);
+                    return JsonConvert.DeserializeObject<UserWebApiEntity>(jsonString);
                 }
             }
         }

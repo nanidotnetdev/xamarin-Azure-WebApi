@@ -70,6 +70,8 @@ C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI.Android\obj
 C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI.Android\obj\Debug\android\assets\System.Security.SecureString.dll
 C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI.Android\obj\Debug\android\assets\System.Web.Services.dll
 C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI.Android\obj\Debug\android\assets\System.Xml.XPath.XDocument.dll
+C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI.Android\obj\Debug\android\assets\System.ComponentModel.Annotations.dll
+C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI.Android\obj\Debug\android\assets\System.ComponentModel.DataAnnotations.dll
 C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
 C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI.Android\obj\Debug\android\assets\System.Globalization.dll
 C:\Users\nallu\Documents\GitHub\xamarin-Azure-WebApi\POC2-UI\POC2-UI.Android\obj\Debug\android\assets\Mono.Security.dll

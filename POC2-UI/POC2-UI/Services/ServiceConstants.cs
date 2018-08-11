@@ -19,7 +19,7 @@
 
         public sealed class SubscriptionKeys
         {
-            public const string PrimaryKey = "6284fcd340df45e594a1b3451dd0261f";
+            public const string PrimaryKey = "1a6ab1ee03374a2aac3841fb203d09b4";
         }
 
 
